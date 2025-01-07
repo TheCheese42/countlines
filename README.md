@@ -2,6 +2,14 @@
 
 Quick CLI utility to count the lines of a project.
 
+## Install
+
+Using [pipx](https://pipx.pypa.io/):
+
+```
+pipx install git+https://github.com/TheCheese42/countlines
+```
+
 ## Usage
 
 `Usage: countlines <path> [--detailed] [--exts:.py,] [--excludes:.venv,venv, (supports regex)]`
