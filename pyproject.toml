@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "countlines"
+version = "1.0.0"
+authors = [{ name = "Dominik Reinartz", email = "dominik.reinartz@proton.me" }]
+description = "Quick CLI utility to count the lines of a project."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["cli", "utility", "countlines"]
+license = { text = "Unlicense" }
+
+[project.scripts]
+countlines = "countlines:main"
